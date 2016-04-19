@@ -10,7 +10,7 @@ function onDeviceReady() {
   var listeningElement = parentElement.querySelector('.listening');
   var receivedElement = parentElement.querySelector('.received');
 
-  listeningElement.setAttribute('style', 'display:none');
+  listeningElement.setAttribute('style', 'background:red');
   receivedElement.setAttribute('style', 'display:block');
 
   navigator.camera.getPictue(onSuccess, onFail, { quality: 50,
