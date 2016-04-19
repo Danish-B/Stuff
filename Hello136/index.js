@@ -1,8 +1,10 @@
 window.onload = function() {
+  navigator.notification.alert("PhoneGap is working!!!");
   document.addEventListener("deviceready", onDeviceReady, false);
 }
 
 function onDeviceReady() {
+  navigator.notification.alert("Device is ready!!!");
   console.log(navigator.camera);
   var parentElement = document.getElementById("deviceready");
   var listeningElement = parentElement.querySelector('.listening');
