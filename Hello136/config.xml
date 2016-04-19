@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+  xmlns:gap = "http://phonegap.com/ns/1.0"
+  version = "1.0"
+>
+  <name>Hello 136!!!</name>
+  <description>
+    PhoneGap Mobile Hybrid Demo
+  </description>
+
+  <author>198 Team</author>
+
+  <preference name = "permissions" value = "none" />
+  <preference name = "target-device" value = "universal" />
+
+  <gap:plugin name = "org.apache.cordova.camera" />
+  <gap:plugin name = "org.apache.cordova.dialogs" />
